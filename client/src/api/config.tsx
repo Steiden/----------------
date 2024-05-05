@@ -6,4 +6,11 @@ export const endpoints: Record<string, string> = {
     'logout': `${BASE_URL}/auth/logout`,
     'profile': `${BASE_URL}/auth/user`,
     'forgot': `${BASE_URL}/auth/forgot`,
+    'reset': `${BASE_URL}/auth/reset`,
+    'users': `${BASE_URL}/user/search`,
+    'user': `${BASE_URL}/user`,
+    'chats': `${BASE_URL}/chats`,
+    'chat': `${BASE_URL}/chats/`,
+    'messages': `${BASE_URL}/chats/`,
+    'message': `${BASE_URL}/chats/`,
 }
